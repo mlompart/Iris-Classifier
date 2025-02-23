@@ -1,0 +1,39 @@
+# Test your FastAPI endpoints
+
+###
+//setosa
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "sepal_len":  5.1,
+  "sepal_wid":  3.5,
+  "petal_len":  1.4,
+  "petal_wid":  0.2
+}
+
+###
+//versicolor
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "sepal_len":  6.7,
+  "sepal_wid":  3.1,
+  "petal_len":  4.4,
+  "petal_wid":  1.4
+}
+
+###
+//virginica
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "sepal_len":  7.2,
+  "sepal_wid":  3.0,
+  "petal_len": 6.0,
+  "petal_wid":  2.1
+}
+
+###
